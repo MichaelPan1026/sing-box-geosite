@@ -33,8 +33,8 @@ jobs:
       working-directory: ./rule/
     - name: Commit and push config.json
       run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
+        git config --global user.email "michaelpan.1026@gmail.com"
+        git config --global user.name "MichaelPan1026"
         git add ./rule/*.json
         git add ./rule/*.srs
 
